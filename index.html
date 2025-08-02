@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Tarifa residencial normal de água</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/2927/2927491.png" type="image/x-icon">
+    
+
+</head>
+<body>
+    <!-- Table -->
+    <table id="mainTable">
+        <caption> Tarifa residencial normal (R$/m³)</caption>
+
+        <thead>
+            <tr>
+                <th> Até 5m³</th>
+                <th> 6 a 10</th>
+                <th> 11 a 15</th>
+                <th> 16 a 20</th>
+                <th> 21 a 30</th>
+                <th> > 30</th>
+            </tr>
+
+        </thead>
+
+        <tbody>
+            <tr>
+                <td> 94,19</td>
+                <td> 2,91</td>
+                <td> 16,23</td>
+                <td> 16,31</td>
+                <td> 16,45</td>
+                <td> 27,84</td>
+            
+            </tr>
+
+        </tbody>
+
+    </table>
+
+    <section class="inputSectionCSS">
+        <label for="selectedValue"> Volume selecionado (m³)</label> <br>
+        <input type="number" id="selectedValue" step="0.1"> <br>
+        <input id="submitButton" type="button" value="Obter valor correspondente">
+        
+    </section>
+
+    <p id="resultParagraph"> Resultado: <span>...</span> </p>
+
+    <!-- Input -->
+    <script src="index.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+body {
+    background-color: #89c8df3f ;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    transition: all 0.5s;
+}
+
+#mainTable {
+    text-align: center;
+
+    margin: 15px 15px 15px 0px;
+    padding: 0;
+
+    border: 2px solid #98A6D4;
+    outline: 2px solid #98A6D4;
+
+    background-color: #b2e4db65;
+
+    border-collapse: collapse;
+    border-radius: 10px;
+}
+
+#mainTable th, #mainTable td {
+    border: 1px solid #98A6D4;
+    width: 100px;
+    border-radius: 10px;
+}
+
+body {
+    margin-left: 15px;
+}
+
+.inputSectionCSS > input {
+    width: 200px;
+    padding: 5px 10px;
+
+    border-radius: 10px;
+}
+
+.inputSectionCSS > input[type=button] {
+    background-color: #98A6D4;
+    border: none;
+
+    margin: 5px 0px 15px 0px;
+    cursor: pointer;
+}
+
+.inputSectionCSS > input[type=button]:hover {
+    background-color: #B2E4DB;
+}
+
+
+.inputSectionCSS > input[type=number] {
+    width: 180px;
+    border-color: #B2E4DB;
+    border-style: groove;
+}
+
